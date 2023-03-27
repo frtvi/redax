@@ -16,7 +16,7 @@ def gerar_texto(pergunta):
     message = completions.choices[0].text.strip()
     return message
 
-# exemplo de uso
+# coleta as informações sobre o texto e imprime
 tipotexto = input("Digite o tipo do texto: ")
 pergunta = input("Digite um tema: ")
 resposta = gerar_texto(pergunta)
